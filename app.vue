@@ -1,7 +1,7 @@
 <script setup>
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - Saugi` : 'Bintang';
+    return titleChunk ? `${titleChunk} - Bintang` : 'Bintang';
   },
   htmlAttrs: {
     lang: 'en'
