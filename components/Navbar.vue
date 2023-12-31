@@ -21,7 +21,7 @@ const toggleDark = useToggle(isDark)
     <div class="navbar__brand | italic text-center flex justify-center py-3 px-8">
       <div class='w-1/3'></div>
       <h3 class="w-1/3 text-xl my-0 flex items-center justify-center">
-        <router-link to="/" class="decoration-none | dark:text-white!">Saugi</router-link>
+        <router-link to="/" class="decoration-none | dark:text-white!">bins</router-link>
       </h3>
       <div class='w-1/3 flex justify-end gap-3 items-center'>
         <a href="#" class="navbar__link | p-2! md:hidden block" @click.prevent="toggleDark()">
@@ -44,8 +44,6 @@ const toggleDark = useToggle(isDark)
         <li class="navbar__item">
           <nuxt-link to="/projects" class="navbar__link">Projects</nuxt-link>
         </li>
-        <li class="navbar__item">
-          <a target="_blank" href="https://blog.saugi.me" class="navbar__link">Blog</a>
         </li>
         <li class="navbar__item">
           <nuxt-link to="/contact" class="navbar__link">Reach me!</nuxt-link>
